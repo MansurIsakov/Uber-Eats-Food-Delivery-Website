@@ -1,0 +1,81 @@
+@media screen and (max-width: 425px) {
+    .container {
+        max-width: 413px;
+    }
+
+    // Header
+    .signin {
+        button {
+            max-width: 60px;
+        }
+    }
+    .basket {
+        img {
+            padding-top: 5px;
+            height: 65px;
+        }
+    }
+
+    // Main
+
+    
+    .card1 {
+        grid-column: 1/13;
+    }
+    .card2 {
+        grid-column: 1/13;
+        grid-row: 2;
+    }
+    .card3 {
+        grid-column: 1/13;
+        grid-row: 3;
+
+    }
+    .card4 {
+        grid-column: 1/13;
+        grid-row: 4;
+    }
+    .card5 {
+        grid-column: 1/13;
+        grid-row: 5;
+    }
+    .card6 {
+        grid-column: 1/13;
+        grid-row: 6;
+    }
+    .card7 {
+        grid-column: 1/13;
+        grid-row: 7;
+    }
+    .card8 {
+        grid-column: 1/13;
+        grid-row: 8;
+    }
+    .card9 {
+        grid-column: 1/13;
+        grid-row: 9;
+    }
+
+    .catalog-items {
+        max-width: 308px;   
+    }
+    // Footer
+    .footer-2 {
+        display: block;
+    }
+    .padding-kosh {
+        margin-top: 39px;
+    }
+
+    .footer-3 img {
+        width: 108.6px;
+        height: 36px;
+    }
+
+    .footer-4 {
+        display: block;
+        .last-items {
+        padding-bottom: 24px;
+        }
+    }
+}
